@@ -8,7 +8,13 @@ function lang() {
             "about":"About",
             "portfolio":"Portfolio",
             "aboutFirst": "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.",
-            "aboutSecond" : "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+            "aboutSecond" : "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!",
+            "programmerServices" : "Правни услуги за програмисти",
+            "freelancer" : "Freelancers",
+            "otherServices": "Other Law Services",
+            "itLabor" : "IT Labor Law",
+            "mainHeader": "IT Law Services",
+            "subHeader" : "Web Developer - Graphic Artist - User Experience Designer"
         },
         "bg":{
             "mainTitle": "ИТ Правни Услуги",
@@ -16,7 +22,13 @@ function lang() {
             "about":"За нас",
             "portfolio":"Портфолио",
             "aboutFirst": "Тралалалала 1",
-            "aboutSecond": "Тралала 2"
+            "aboutSecond": "Тралала 2",
+            "programmerServices" : "Услуги за ИТ специалисти",
+            "freelancers" : "Фриленсъри",
+            "otherServices" : "Други правни услуги",
+            "itLabor" : "ИТ Трудовоправи проблеми",
+            "mainHeader": "ИТ Правни Услуги",
+            "subHeader" : "Адв. Атанасова"
         }
     }
 }
