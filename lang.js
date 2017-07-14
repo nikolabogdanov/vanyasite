@@ -15,7 +15,9 @@ function lang() {
             "itLabor" : "IT Labor Law",
             "mainHeader": "IT Law Services",
             "subHeader" : "Web Developer - Graphic Artist - User Experience Designer",
-            "copyright" : "Copyright"
+            "copyright" : "Copyright",
+            "firms" : "Firms",
+            "individuals" : "Individuals"
         },
         "bg":{
             "mainTitle": "ИТ Правни Услуги",
@@ -30,7 +32,9 @@ function lang() {
             "itLabor" : "ИТ Трудовоправи проблеми",
             "mainHeader": "ИТ Правни Услуги",
             "subHeader" : "Адв. Атанасова",
-            "copyright" : "Авторско Право"
+            "copyright" : "Авторско Право",
+            "firms" : "Фирми",
+            "individuals" : "Физически Лица"
         }
     }
 }
