@@ -86,3 +86,7 @@ header {
     border: 0;
     vertical-align: middle;
 }
+
+*:focus {
+    outline: none;
+}
