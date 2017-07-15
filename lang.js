@@ -16,8 +16,9 @@ function lang() {
             "mainHeader": "IT Law Services",
             "subHeader" : "Web Developer - Graphic Artist - User Experience Designer",
             "copyright" : "Copyright",
-            "firms" : "Firms",
-            "individuals" : "Individuals"
+            "firms" : "IT Companies",
+            "individuals" : "IT Specialists",
+            "sendRequest" : "Send Request"
         },
         "bg":{
             "mainTitle": "ИТ Правни Услуги",
@@ -33,8 +34,9 @@ function lang() {
             "mainHeader": "ИТ Правни Услуги",
             "subHeader" : "Адв. Атанасова",
             "copyright" : "Авторско Право",
-            "firms" : "Фирми",
-            "individuals" : "Физически Лица"
+            "firms" : "ИТ Фирми",
+            "individuals" : "ИТ Специалисти",
+            "sendRequest" : "Изпрати запитване"
         }
     }
 }
