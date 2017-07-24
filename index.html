@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="infos">
+        <div class="infos" id="sendRequest">
             <a href="">
                 <div>
                     <h2 nvalue="sendRequest"> > </h2>
@@ -173,6 +173,86 @@
                         
                     </a>
                     <span nvalue="copyright"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IT Law Services Section -->
+    <section class="success" id="itLawServices">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 nvalue="programmerServices"></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p nvalue="aboutFirst"></p>
+                </div>
+                <div class="col-lg-4">
+                    <p nvalue="aboutSecond"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ITLabor Section -->
+    <section id="itLabor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 nvalue="itLabor"></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p nvalue="aboutFirst"></p>
+                </div>
+                <div class="col-lg-4">
+                    <p nvalue="aboutSecond"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freelancer services Section -->
+    <section class="success" id="freelancerServices">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 nvalue="freelancers"></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p nvalue="aboutFirst"></p>
+                </div>
+                <div class="col-lg-4">
+                    <p nvalue="aboutSecond"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Others Section -->
+    <section id="otherServices">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 nvalue="otherServices"></h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p nvalue="aboutFirst"></p>
+                </div>
+                <div class="col-lg-4">
+                    <p nvalue="aboutSecond"></p>
                 </div>
             </div>
         </div>
@@ -266,13 +346,14 @@
  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
 	</script>
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	<script src="jquery\jquery-3.2.1.min.js">
 	</script>
 	<script src="scripts.js"></script>
     <script src="lang.js"></script>
     <script>
         $(document).ready(function(){
             translate();
+            setControlls();
         });
     </script>
     <script>
