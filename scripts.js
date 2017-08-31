@@ -3,10 +3,12 @@ function setControlls() {
 }
 
 function expandRequest(e) {
-	if($(this).height() !== 500){
-		$(this).animate({height:500},500);		
+	if($(this).height() !== 180){
+		$(this).animate({height:180},500);
+		$('.contacts_form').show();		
 	} else {
-		$(this).animate({height:70},500);	
+		$(this).animate({height:70},500);
+		$('.contacts_form').hide();	
 	}
 
 	e.preventDefault();
