@@ -24,7 +24,7 @@ function lang() {
             "programmerServicesFirst" : "info"
         },
         "bg":{
-            "mainTitle": "IT Правни Услуги",
+            "mainTitle": "IT Law Services",
             "contacts":"Контакти",
             "about":"За нас",
             "portfolio":"Портфолио",
