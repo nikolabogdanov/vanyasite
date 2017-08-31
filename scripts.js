@@ -1,5 +1,6 @@
 function setControlls() {
 	$("#sendRequest").click(expandRequest);
+	$('.contacts_form').hide();
 }
 
 function expandRequest(e) {
