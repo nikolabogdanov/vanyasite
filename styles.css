@@ -24,10 +24,6 @@ header {
     background-size: cover;
 }
 
-.container {
-    width: 1170px;
-}
-
 .navbar-custom {
     // background: #3348FF;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
