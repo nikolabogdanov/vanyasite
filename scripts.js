@@ -8,7 +8,7 @@ function expandRequest(e) {
 	var mobileHeight = 180;
 
 	if(detectmob()) {
-		mobileHeight  = 100;
+		mobileHeight  = 110;
 	} else {
 		mobileHeight = 180;
 	}
