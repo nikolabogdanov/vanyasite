@@ -22,7 +22,7 @@
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header page-scroll nav-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
@@ -31,18 +31,15 @@
                 <a class="navbar-brand main-header" href="#page-top" nvalue="mainTitle"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="container">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <!-- <li class="page-scroll main-nav-link">
-                        <a href="#portfolio" nvalue="portfolio"></a>
-                    </li> -->
-                    <li class="page-scroll main-nav-link">
+                    <li class="page-scroll main-nav-link col-lg-6 desktop-only">
                         <a href="#about" nvalue="about"></a>
                     </li>
-                    <li class="page-scroll main-nav-link">
+                    <li class="page-scroll main-nav-link col-lg-6 desktop-only">
                         <a href="#contact" nvalue="contacts"></a>
                     </li>
                 </ul>
@@ -50,22 +47,25 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
+        <div class="container second-nav collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
+            <div class="row">
+                <ul class="second-nav-ul">
+                    <li class="col-lg-4 secondnav-li"><a href="#itLawServices" nvalue="programmerServices"></a></li>
+                    <li class="col-lg-4 secondnav-li"><a href="#freelancerServices" nvalue="freelancers"></a></li>
+                    <li class="col-lg-4 secondnav-li"><a href="#otherServices" nvalue="otherServices"></a></li>
+                    <li class="col-lg-4 secondnav-li mobile-only"><a href="#about" nvalue="about"></a></li>
+                    <li class="col-lg-4 secondnav-li mobile-only"><a href="#contacts" nvalue="contacts"></a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
 
-    <div class="container second-nav">
-        <div class="row">
-            <ul>
-                <li class="col-lg-4 secondnav-li"><a href="#itLawServices" nvalue="programmerServices"></a></li>
-                <li class="col-lg-4 secondnav-li"><a href="#freelancerServices" nvalue="freelancers"></a></li>
-                <li class="col-lg-4 secondnav-li"><a href="#otherServices" nvalue="otherServices"></a></li>
-            </ul>
-        </div>
-    </div>
+    
     <!-- Header -->
     <header>
         <div class="container maincontent" id="maincontent" tabindex="-1">
-            <div class="row">
+            <div class="row desktop-only">
                 <div class="col-md-3 col-md-offset-2 nav-section">
                     <a class="nav-section-span" nvalue="individuals" href="#itLawServices"></a>
                 </div>

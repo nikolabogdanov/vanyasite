@@ -71,11 +71,11 @@ header {
 }
 
 .main-nav-link a {
-    color: #fff;
+    color: #337ab7;
 }
 
 .main-header {
-    color: #fff;
+    color: #6A7177;
 }
 
 .img-responsive {
@@ -103,7 +103,7 @@ section {
 }
 
 .success {
-    background: #18BC9C;
+    background: #5D99FF;
     color: #fff;
 }
 
@@ -212,4 +212,58 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-size: 10px;
     border-color: #fff;
+}
+
+.navbar-header.nav-header{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (min-width:992px) {
+     .mobile-only {
+        display:none !important;
+    }
+
+    .desktop-only {
+        display:block !important;
+    }
+}
+ 
+@media (max-width:991px) {
+    .mobile-only {
+        display:block !important;
+    }
+ 
+    .desktop-only {
+        display:none !important;
+    }
+
+    .second-nav-ul {
+        padding: 0;
+    }
+
+    .secondnav-li {
+        padding-left: 0: 
+    }
+
+    header .maincontent {
+        padding-top: 75px;
+        padding-bottom: 100px;
+        height: 100vh;
+    }
+
+    .infos {
+        width: 60%
+    }
+
+    .infos h2{
+        font-size: 19px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .contacts_form p {
+        font-size: 15px;
+        margin: 0;
+    }
 }

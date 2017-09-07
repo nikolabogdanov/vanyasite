@@ -4,8 +4,17 @@ function setControlls() {
 }
 
 function expandRequest(e) {
-	if($(this).height() !== 180){
-		$(this).animate({height:180},500);
+
+	var mobileHeight = 180;
+
+	if(detectmob()) {
+		mobileHeight  = 100;
+	} else {
+		mobileHeight = 180;
+	}
+
+	if($(this).height() !== mobileHeight){
+		$(this).animate({height:mobileHeight},500);
 		$('.contacts_form').show();		
 	} else {
 		$(this).animate({height:70},500);
@@ -38,6 +47,16 @@ function slowScrolling() {
 	        window.location.hash = hash;
 	      });
 	    } // End if
+
+	    $("#bs-example-navbar-collapse-1").removeClass("in");
 	  });
 	});
+}
+
+function detectmob() {
+   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+     return true;
+   } else{
+      return false;
+   }
 }
