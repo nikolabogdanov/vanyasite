@@ -174,6 +174,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-size: 24px;
     line-height: 250px;
+    outline:none;
+}
+
+.nav-section-span:focus {
+    outline:none;
 }
 
 .infos {
@@ -271,3 +276,84 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
     }
 }
+
+.caption {
+    position: absolute;
+    width: 95%;
+    height: 91%;
+    opacity: 0;
+    bottom: 11px;
+    left: 7px;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    background: #EAEAEA;
+}
+
+.caption:hover {
+    opacity: 1;
+}
+
+.modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+ .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #2C3E50;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1051;
+}
+
+.modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.modal-content img {
+    margin-bottom: 30px;
+}
+
+hr.star-primary {
+    border-color: #2C3E50;
+}
+
+freelancer.min.css:5
+hr.star-light, hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    height: 75px;
+    width: 1px;
+    background-color: #2C3E50;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    z-index: 1052;
