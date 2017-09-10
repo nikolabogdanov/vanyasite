@@ -66,7 +66,7 @@
     <header>
         <div class="container maincontent" id="maincontent" tabindex="-1">
             <div class="row desktop-only">
-                <div class="col-sm-3 col-sm-offset-2 nav-section">
+                <div class="col-sm-3  nav-section">
                     <a href="#portfolioModal1" class="nav-section-span" data-toggle="modal">
                         <div class="main-box" nvalue="individuals">
                         </div>
@@ -78,13 +78,21 @@
                     </a>
                 </div>
 
-               <!--  <div class="col-md-3 col-md-offset-2 nav-section">
-                    <a class="nav-section-span" nvalue="individuals" href="#itLawServices"></a>
-                </div> -->
-
-                <div class="col-sm-3 col-sm-offset-2 nav-section">
+                <div class="col-sm-3 col-sm-offset-1 nav-section">
                     <a href="#portfolioModal2" class="nav-section-span" data-toggle="modal">
-                         <div class="main-box" nvalue="firms">
+                         <div class="main-box" nvalue="freelancers">
+                        </div>
+                         <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3 col-sm-offset-1 nav-section">
+                    <a href="#portfolioModal3" class="nav-section-span" data-toggle="modal">
+                         <div class="main-box" nvalue="firmRegistration">
                         </div>
                          <div class="caption">
                             <div class="caption-content">
@@ -107,11 +115,15 @@
 
             <div class="row mobile-only">
                 <div class="modalTrigger">
-                    <a href="#portfolioModal1" class="modalTriggerItem w3-button w3-blue" data-toggle="modal" nvalue="individuals">
+                    <a href="#portfolioModal1" class="modalTriggerItem w3-button w3-blue" data-toggle="modal" nvalue="individuals" style="padding-left: 8px;">
                     </a>
                 </div>
                 <div class="modalTrigger">
-                    <a href="#portfolioModal2" class="modalTriggerItem w3-button w3-blue" data-toggle="modal" nvalue="firms">
+                    <a href="#portfolioModal2" class="modalTriggerItem w3-button w3-blue" data-toggle="modal" nvalue="freelancers">
+                    </a>
+                </div>
+                <div class="modalTrigger">
+                    <a href="#portfolioModal3" class="modalTriggerItem w3-button w3-blue" data-toggle="modal" nvalue="firms">
                     </a>
                 </div>
             </div>
@@ -239,22 +251,20 @@
                             <p nvalue="peopleModalText"></p>
                             <ul class="list-inline item-details">
                                 <li>
-                                    <strong nvalue="peopleModalContactUs">
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong nvalue="phone">
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong nvalue="email">
-                                    </strong>
-                                </li>
-                                <li>
                                     <strong nvalue="peopleModalAdvice">
                                     </strong>
                                 </li>
                             </ul>
+                            <div>
+                                <strong nvalue="peopleModalContactUs">
+                                </strong>
+                                <br/>
+                                <strong nvalue="phone">
+                                </strong>
+                                <br/>
+                                <strong nvalue="email">
+                                </strong>
+                            </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -281,27 +291,15 @@
                             <p nvalue="freelancerModalText"></p>
                             <ul class="list-inline item-details">
                                 <li>
-                                    <strong nvalue="freelancerServices1">                                        
+                                    <strong nvalue="subscription">                                        
                                     </strong>
                                 </li>
                                 <li>
-                                    <strong nvalue="freelancerServices2">                                        
+                                    <strong nvalue="lawConsultance">                                        
                                     </strong>
                                 </li>
                                 <li>
-                                    <strong nvalue="freelancerServices3">                                        
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong nvalue="freelancerModalContactUs">
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong nvalue="phone">
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong nvalue="email">
+                                    <strong nvalue="documentReview">                                        
                                     </strong>
                                 </li>
                                 <li>
@@ -309,6 +307,16 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <div>
+                                <strong nvalue="peopleModalContactUs">
+                                </strong>
+                                <br/>
+                                <strong nvalue="phone">
+                                </strong>
+                                <br/>
+                                <strong nvalue="email">
+                                </strong>
+                            </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -317,6 +325,53 @@
         </div>
     </div>
 
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2 nvalue="firmRegistration"></h2>
+                            <hr class="star-primary">
+                            <img src="img/entrepreneur.jpg" class="img-responsive img-centered" alt="">
+                            <p nvalue="firmRegistrationContent"></p>
+                            <ul class="list-inline item-details">
+                                 <li>
+                                    <strong nvalue="subscription">                                        
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong nvalue="lawConsultance">                                        
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong nvalue="documentReview">                                        
+                                    </strong>
+                                </li>                                
+                            </ul>
+                            <div>
+                                <strong nvalue="peopleModalContactUs">
+                                </strong>
+                                <br/>
+                                <strong nvalue="phone">
+                                </strong>
+                                <br/>
+                                <strong nvalue="email">
+                                </strong>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">

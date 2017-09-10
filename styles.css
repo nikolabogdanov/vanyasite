@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-section-span {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 250px;
     outline:none;
 }
@@ -305,6 +305,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 25px;
     right: 25px;
     cursor: pointer;
+    z-index: 2000;
 }
 
 .close-modal .lr {
@@ -373,12 +374,12 @@ hr.star-light, hr.star-primary {
 }
 
 .modalTrigger {
-    width: 50%;
+    width: 33%;
     float: left;
     padding-top: 40px;
 }
 
 .modalTriggerItem {
-    width: 170px;
+    width: 120px;
     font-size: smaller;
 }
