@@ -49,9 +49,8 @@ header {
     position: relative;
     display: block;
     padding: 10px 15px;
-    color: #FF33F2;
+    color: #2196F3;
     text-decoration: none;
-    background-color: transparent;
     cursor: auto;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
@@ -256,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     header .maincontent {
-        padding-top: 75px;
+        padding-top: 100px;
         padding-bottom: 100px;
         height: 100vh;
     }
@@ -274,6 +273,10 @@ h1, h2, h3, h4, h5, h6 {
     .contacts_form p {
         font-size: 16px;
         margin: 0;
+    }
+
+    .second-nav {
+        background: rgba(255,255,255,.9);
     }
 }
 
