@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <meta charset="utf-8">
@@ -64,7 +66,7 @@
     <header>
         <div class="container maincontent" id="maincontent" tabindex="-1">
             <div class="row desktop-only">
-                <div class="col-md-3 col-md-offset-2 nav-section">
+                <div class="col-sm-3 col-sm-offset-2 nav-section">
                     <a href="#portfolioModal1" class="nav-section-span" data-toggle="modal">
                         <div class="main-box" nvalue="individuals">
                         </div>
@@ -80,7 +82,7 @@
                     <a class="nav-section-span" nvalue="individuals" href="#itLawServices"></a>
                 </div> -->
 
-                <div class="col-md-3 col-md-offset-2 nav-section">
+                <div class="col-sm-3 col-sm-offset-2 nav-section">
                     <a href="#portfolioModal2" class="nav-section-span" data-toggle="modal">
                          <div class="main-box" nvalue="firms">
                         </div>
@@ -102,7 +104,17 @@
                     </div>
                 </div>
             </div>
-            
+
+            <div class="row mobile-only">
+                <div class="modalTrigger">
+                    <a href="#portfolioModal1" class="modalTriggerItem w3-button w3-blue" data-toggle="modal" nvalue="individuals">
+                    </a>
+                </div>
+                <div class="modalTrigger">
+                    <a href="#portfolioModal2" class="modalTriggerItem w3-button w3-blue" data-toggle="modal" nvalue="firms">
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="infos" id="sendRequest">
             <a href="">
@@ -366,6 +378,15 @@
         });
 
         slowScrolling();
+
+        $(document).ready(function() {  
+            $(".carousel-inner").swiperight(function() {  
+                $(this).parent().carousel('prev');  
+            });  
+           $(".carousel-inner").swipeleft(function() {  
+              $(this).parent().carousel('next');  
+            });  
+        });  
     </script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
