@@ -75,12 +75,12 @@ header {
 }
 
 .main-header {
-    color: #6A7177;
+    color: #EAEAEA;
 }
 
 .img-responsive {
     display: block;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin: 0 auto 20px;
     border: 0;
@@ -294,18 +294,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
 }
 
-.modal-content {
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    min-height: 100%;
-    padding: 100px 0;
-    text-align: center;
-}
-
- .close-modal {
+.close-modal {
     position: absolute;
     width: 75px;
     height: 75px;
@@ -357,3 +346,15 @@ hr.star-light, hr.star-primary {
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     z-index: 1052;
+  }  
+
+  .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
