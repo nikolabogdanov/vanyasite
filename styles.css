@@ -383,3 +383,7 @@ hr.star-light, hr.star-primary {
     width: 120px;
     font-size: smaller;
 }
+
+.contacts-navigation {
+    min-width: 600px;
+}
