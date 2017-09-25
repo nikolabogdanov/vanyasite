@@ -16,7 +16,7 @@ header .maincontent {
 
 header {
     text-align: center;
-    // background: #18BC9C;
+// background: #18BC9C;
     color: #fff;
     background-image: url("img/comp_background.jpg");
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ header {
 }
 
 .navbar-custom {
-    // background: #3348FF;
+// background: #3348FF;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -91,14 +91,14 @@ header {
 }
 
 .portfolio-item {
-	height: 200px;
-	margin: 0 0 30px;
-	right: 0;
-	text-align: center;
+    height: 200px;
+    margin: 0 0 30px;
+    right: 0;
+    text-align: center;
 }
 
 section {
-	padding:  100px 0;
+    padding:  100px 0;
 }
 
 .success {
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contacts_form {
     color: #337ab7;
-    display: "none";
+    display: none;
 }
 
 .maincontent a {
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width:992px) {
-     .mobile-only {
+    .mobile-only {
         display:none !important;
     }
 
@@ -236,12 +236,12 @@ h1, h2, h3, h4, h5, h6 {
         display:block !important;
     }
 }
- 
+
 @media (max-width:991px) {
     .mobile-only {
         display:block !important;
     }
- 
+
     .desktop-only {
         display:none !important;
     }
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .secondnav-li {
-        padding-left: 0: 
+        padding-left: 0;
     }
 
     header .maincontent {
@@ -332,7 +332,6 @@ hr.star-primary {
     border-color: #2C3E50;
 }
 
-freelancer.min.css:5
 hr.star-light, hr.star-primary {
     padding: 0;
     border: none;
@@ -350,9 +349,9 @@ hr.star-light, hr.star-primary {
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     z-index: 1052;
-  }  
+}
 
-  .modal-content {
+.modal-content {
     border-radius: 0;
     background-clip: border-box;
     -webkit-box-shadow: none;
@@ -363,8 +362,8 @@ hr.star-light, hr.star-primary {
     text-align: center;
 }
 
-.carousel-indicators li { 
-    border-radius: 50%; 
+.carousel-indicators li {
+    border-radius: 50%;
     height: 20px;
     width: 20px;
 }
